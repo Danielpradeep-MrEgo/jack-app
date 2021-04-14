@@ -1,0 +1,31 @@
+.header {
+	display: flex;
+	padding: 25px;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	position: sticky;
+	z-index: 999;
+	background-color: white;
+}
+
+.header__search {
+	display: flex;
+	align-items: center;
+	flex: 0.9;
+}
+
+.header__search > input {
+	border-radius: 30px;
+	outline: none;
+	border: none;
+	flex: 1;
+	background-color: whitesmoke;
+	height: 30px;
+	padding-left: 29px;
+}
+
+.header__search > .MuiSvgIcon-root {
+	padding-left: 3px;
+	position: absolute;
+}
